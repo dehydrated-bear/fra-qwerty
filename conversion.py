@@ -4,11 +4,6 @@ import sys
 import re
 import argparse
 
-__author__      = ["Nehal J Wani, Raveesh Motlani"]
-__copyright__   = "Copyright 2015, Language Technology Research Center, IIIT Hyderabad"
-__maintainer__  = "Nehal J Wani"
-__email__       = "nehaljw.kkd1@gmail.com"
-
 k2u = [
    (u'\xf1', u'\u0970'),  #  ñ  ->  ॰
    (u'Q+Z', u'QZ+'),  #  Q+Z  ->  QZ+
